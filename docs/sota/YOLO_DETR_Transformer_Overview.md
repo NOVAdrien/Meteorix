@@ -1,49 +1,66 @@
-*Overview
+#Overview
 
-**YOLO (You Only Look Once)
+---
 
-***Goal: Find and locate objects in an image.
+##YOLO (You Only Look Once)
 
-***Main idea
-- Before YOLO, object detection systems looked at an image many times, scanning small parts.
+###Goal
+Find and locate objects in an image.
+
+###Main idea
+- Before YOLO, object detection systems looked at an image **many times**, scanning small parts.
 - YOLO is based on convolutional neural networks (CNNs), which are designed to recognize patterns in images.
-- YOLO looks at the whole image once and predicts both:
-- What objects are present.
-- Where they are (the bounding boxes).
+- YOLO looks at **the whole image once** and predicts both:
+	- **What** objects are present.
+	- **Where** they are.
 
-***Advantages
-- Super fast , can work in real time (great for cameras or self-driving cars).
-- Quite accurate for clear, well-separated objects.
+###Advantages
+- Learns **general patterns**, so it works well on new types of images.
+- Super fast: can work in **real time** with cameras (e.g self-driving cars).
+	- Base YOLO: ~45 FPS
+	- Fast YOLO: ~155 FPS 
+- Quite accurate for **clear, well-separated** objects.
 
-***Limitations
-- Struggles with small or overlapping objects.
+###Limitations
+- Struggles with **small or overlapping objects**.
+- Sometimes bounding boxes are not very precise.
 
-**Transformer
+---
 
-***Goal: Understand sequences of information, like a text, a speech, or even image patches.
+##Transformer
 
-***Main idea
-- Transformers were first created for language tasks.
-- They use an attention mechanism, which lets the model focus on the most relevant parts of the input.
-- In images (like in DETR), the image is split into many small patches, and the Transformer learns how those patches relate to each other to understand the objects and their positions.
+###Goal
+Understand **sequences of information**, like a text, a speech, or even image patches.
 
-**DETR (DEtection TRansformer)
+###Main idea
+- Uses **attention** to focus on the important parts of the input.
+- Looks at the **whole sequence at once**, not just one part at a time.
+- In images (like in DETR), the image is split into many small patches, and the Transformer learns how those patches **relate to each other** to understand the objects and their positions.
 
-***Goal: Detect objects in images, but in a more modern and elegant way.
+### Why it's good
+- Good at understanding long-range connections.
+- Works for text, speech, and images.
 
-***Main idea
-- DETR uses a Transformer to handle object detection.
-- DETR can be seen as a next-generation object detector that replaces YOLO’s CNN-based approach with a Transformer-based one.
-- Instead of splitting the image into grids like YOLO, DETR looks at the whole image and learns how different sub-parts relate to each other.
+---
 
-***Advantages
-- Simpler design.
+##DETR (DEtection TRansformer)
+
+###Goal
+Detect objects in images, but in a more modern and elegant way.
+
+###Main idea
+- Combines a **CNN** to get features with a **Transformer** to understand global context.
+- Instead of splitting the image into grids like YOLO, DETR looks at **the whole image** and learns how different sub-parts relate to each other.
+- Uses a special **set-based matching system** to make sure each object is detected **only once**.
+
+###Advantages
+- Simpler design and easy to implement.
 - Understands the global context of the image.
-- More flexible, it can adapt to different kinds of scenes.
 
-***Limitations
-- Takes longer to train, it needs more computing power.
+###Limitations
+- Takes longer to train, it needs more **computing power**.
+- Struggles with **small objects**.
 
-*SUMMARY
+#SUMMARY
 
 YOLO introduced real-time object detection, Transformers brought powerful sequence understanding, and DETR combined both ideas to achieve more context-aware object detection.
