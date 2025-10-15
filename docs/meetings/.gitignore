@@ -1,0 +1,3 @@
+# Only .pdf files
+*
+!*.pdf
