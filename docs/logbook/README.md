@@ -14,8 +14,8 @@
 
 ### Todo
 
-- [ ] Focus on the paper about YOLO : "You Only Look Once: Unified, Real-Time Object Detection", by J. Redmon & co.
-- [ ] Focus on the paper about Transformer : "Attention is all you need", by A.Vaswani & co.
+- [ ] Adrien + : Focus on the paper about YOLO : "You Only Look Once: Unified, Real-Time Object Detection", by J. Redmon & co.
+- [ ] Han +  : Focus on the paper about Transformer : "Attention is all you need", by A.Vaswani & co.
 - [ ] Modify the slides with a specification to the articles + the numbers to make interesting comparisons
 - [ ] Finish and submit the production specification to the client
 - [ ] Make the Gantt chart
