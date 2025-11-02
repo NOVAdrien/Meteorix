@@ -6,3 +6,7 @@
 - [Meteor detection and localization using YOLOv3 and YOLOv4](https://link.springer.com/article/10.1007/s00521-023-08575-0)
 - [Fast R-CNN](https://arxiv.org/pdf/1504.08083)
 - [Selective search for object recognition](https://link.springer.com/article/10.1007/s11263-013-0620-5)
+- [How YOLO Object Detection Works](https://www.youtube.com/watch?v=svn9-xV7wjk)
+- [Rich feature hierarchies for accurate object detection and semantic segmentation, Tech report (v5)](https://arxiv.org/pdf/1311.2524)
+- [Detecting People in Cubist Art](https://arxiv.org/pdf/1409.6235)
+- [The Cross-Depiction Problem: Computer Vision Algorithms for Recognising Objects in Artwork and in Photographs](https://arxiv.org/pdf/1505.00110)
