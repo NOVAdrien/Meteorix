@@ -14,16 +14,23 @@
 
 ### Todo
 
-- [x] Adrien + : Focus on the paper about YOLO : "You Only Look Once: Unified, Real-Time Object Detection", by J. Redmon & co.
-- [x] Han +  : Focus on the paper about Transformer : "Attention is all you need", by A.Vaswani & co.
+- [x] Adrien + Mohamed Saad : Focus on the paper about YOLO : "You Only Look Once: Unified, Real-Time Object Detection", by J. Redmon & co.
+- [x] Han + Victor : Focus on the paper about Transformer : "Attention is all you need", by A.Vaswani & co.
 - [x] Modify the slides with a specification to the articles + the numbers to make interesting comparisons
 - [x] Make the Gantt chart
 
-## Week 3 (4/11 - 21/11)
+## Week 3 (4/11 - 25/11)
 
 ### Todo
 
-- [ ] Keep reading the articles on YOLO and Transformer
-- [ ] Update the slides as a living document
-- [ ] Share the Gantt chart
+- [x] Keep reading the articles on YOLO and Transformer
+- [x] Update the slides as a living document
+- [x] Share the Gantt chart
+
+## Week 4 (25/11 - 11/12)
+
+### Todo
+
+- [ ] YOLO: Cite articles correctly and in the right format (title + author + publication date + place of publication)
 - [ ] Review and submit the production specification to the client
+- [ ] Find templates (YOLO) and start simple tests
