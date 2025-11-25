@@ -11,3 +11,4 @@
 - [Detecting People in Cubist Art](https://arxiv.org/pdf/1409.6235)
 - [The Cross-Depiction Problem: Computer Vision Algorithms for Recognising Objects in Artwork and in Photographs](https://arxiv.org/pdf/1505.00110)
 - [Convolutional Neural Networks cheatsheet](https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-convolutional-neural-networks)
+- [Fast YOLO: A Fast You Only Look Once System for Real-time Embedded Object Detection in Video](https://arxiv.org/pdf/1709.05943)
