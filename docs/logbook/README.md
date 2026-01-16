@@ -1,6 +1,6 @@
 # Logbook
 
-## Week 1 (1/10 - 15/10)
+## Week 1 (10/1- 10/15)
 
 ### Todo
 
@@ -10,7 +10,7 @@
 - [x] Complete the Starfish
 - [x] Start the production specification
 
-## Week 2 (15/10 - 4/11)
+## Week 2 (10/15 - 11/4)
 
 ### Todo
 
@@ -20,7 +20,7 @@
 - [x] Make the Gantt chart
 - [x] Review and submit the production specification to the client
 
-## Week 3 (4/11 - 25/11)
+## Week 3 (11/4 - 11/25)
 
 ### Todo
 
@@ -28,7 +28,7 @@
 - [x] Update the slides as a living document
 - [x] Share the Gantt chart
 
-## Week 4 (25/11 - 11/12)
+## Week 4 (11/25 - 12/11)
 
 ### Todo
 
@@ -36,22 +36,39 @@
 - [x] Find templates (YOLO) and start simple tests
 - [x] Keep reading the paper on Transformer
 
-## Week 5 (11/12 - 01/09)
+## Week 5 (12/11 - 1/9): Midterm oral presentation
 
 ### Todo
 
-- [ ] Add the probabilities directly on the output image with the bounding boxes for tests with YOLO
-- [ ] Find a dataset of meteor images for testing on the YT video: https://www.youtube.com/watch?v=fO9e9jnhYK8 (satellite continuously filming the Earth's sky) -> find a code to extract video sequences where a meteor can be seen
+- [x] Add the probabilities directly on the output image with the bounding boxes for tests with YOLO
+- [x] Keep reading the paper on Transformer
+- [x] Start reading the paper on DETR : "End-to-End Object Detection with Transformers", by N. Carion & co.
+
+## Week 6 (1/9 - 1/15)
+
+### Todo
+
+- [x] Find a dataset of meteor images for testing on the YT video: https://www.youtube.com/watch?v=fO9e9jnhYK8 (satellite continuously filming the Earth's sky) -> find a code to extract video sequences where a meteor can be seen
+- [x] Start reading the paper on YOLOv3 & YOLOv4 : “Meteor detection and localization using YOLOv3 and YOLOv4”, by A. Aisha & co.
+
+## Week 7 (1/15 - 2/4)
+
+### Todo
+
 - [ ] Start tests on more recent YOLO version (YOLOv7 & YOLOv8)
-- [ ] Start reading the paper on YOLOv3 & YOLOv4 : “Meteor detection and localization using YOLOv3 and YOLOv4”, by A. Aisha & co.
-- [ ] Keep reading the paper on Transformer
-- [ ] Start reading the paper on DETR : "End-to-End Object Detection with Transformers", by N. Carion & co.
+- [ ] Keep reading on YOLOv3 & YOLOv4
+- [ ] Lire papier: “ YOLO9000: Better, Faster, Stronger”
+- [ ] Lire papier: “Meteor detection and localization using YOLOv3 and YOLOv4”
+- [ ] Lire papier "What is YOLOv8: an in-depth exploration of the internal features of the next-generation object detector"
+- [ ] Entrainer YOLOv1 et yOLOv8 sur météoroïdes (trouver code source) d'abord avec COCO2017 puis avec le dataset qu'on a trouvé
+- [ ] Entrainer DETR sur météoroïdes (trouver code source) avec COCO2017
+- [ ] Voir comment annoter les images avec Roboflow puis labellmg (https://github.com/HumanSignal/labelImg) pour le training (où est l’image ? qu’est-ce que c’est ?) -> On a réussi à le faire pour une météor de météor
+- [ ] Continuer à étudier Transformer
+- [ ] Continuer à étudier DETR
 
 
 
 ## For later
 
-- [ ] Image annotation (Roboflow, Labellmg)
-- [ ] Concept of “field truth” with annotations (the client provides us with pre-annotated datasets)
 - [ ] Keep the version that tracks images from a video sequence (Han model)
 - [ ] Establish field truth for meteors

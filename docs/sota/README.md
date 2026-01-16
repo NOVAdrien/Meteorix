@@ -21,6 +21,7 @@
 - [How YOLO Object Detection Works](https://www.youtube.com/watch?v=svn9-xV7wjk)
 - [Fast YOLO: A Fast You Only Look Once System for Real-time Embedded Object Detection in Video](https://arxiv.org/pdf/1709.05943)
 - [Yolo (HuggingFace)](https://huggingface.co/learn/computer-vision-course/en/unit2/cnns/yolo)
+- [A COMPREHENSIVE REVIEW OF YOLO: FROM YOLOV1 TO YOLOV8 AND BEYOND](https://arxiv.org/pdf/2304.00501v1)
 
 ### Transformer
 
