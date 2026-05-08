@@ -3,3 +3,6 @@
 
 # New subfiles allowed
 !*/
+
+# Dataset
+data/datasets/raw/Meteors/
