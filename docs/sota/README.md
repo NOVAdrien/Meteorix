@@ -16,6 +16,7 @@
 
 ### YOLO
 
+- [All YOLO versions](https://docs.ultralytics.com/models/)
 - [Yolo](https://arxiv.org/abs/1506.02640)
 - [Meteor detection and localization using YOLOv3 and YOLOv4](https://link.springer.com/article/10.1007/s00521-023-08575-0)
 - [How YOLO Object Detection Works](https://www.youtube.com/watch?v=svn9-xV7wjk)
