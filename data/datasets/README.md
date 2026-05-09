@@ -44,14 +44,16 @@ The resulting dataset of **5,500 images** is split into three subsets:
 - `test`
 - `valid`
 
-The split follows an **80% / 10% / 10%** ratio:
+The split follows an **80% / 10% / 10%** ratio.
 
-| Subset | Percentage | Number of Images |
-|---|---:|---:|
-| `training` | 80% | 4,400 |
-| `test` | 10% | 550 |
-| `valid` | 10% | 550 |
-| **Total** | **100%** | **5,500** |
+For each subset, the same class distribution is preserved (**70% images with meteors** and **30% images without meteors**):
+
+| Subset | Percentage | Number of Images | With meteor | No meteor |
+|---|---:|---:|---:|---:|
+| `training` | 80% | 4,400 | 3,080 | 1,320 |
+| `test` | 10% | 550 | 385 | 165 |
+| `valid` | 10% | 550 | 385 | 165 |
+| **Total** | **100%** | **5,500** | **3,850** | **1,650** |
 
 ## Source Folder
 
