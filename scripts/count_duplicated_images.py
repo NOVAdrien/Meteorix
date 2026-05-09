@@ -4,7 +4,7 @@ from collections import defaultdict
 
 BASE_DIR = Path(__file__).resolve().parent
 
-DOSSIER = BASE_DIR / "../data/datasets/raw/Meteors/CroppedImages/meteor/"
+DOSSIER = BASE_DIR / "../data/datasets/raw/Meteors/CroppedImages/meteor/" # "meteor" or "nonmeteor"
 DOSSIER = DOSSIER.resolve()
 
 extensions = {".jpg", ".jpeg", ".png", ".bmp", ".webp", ".tif", ".tiff"}
