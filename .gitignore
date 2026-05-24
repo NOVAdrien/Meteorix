@@ -4,6 +4,52 @@
 # New subfiles allowed
 !*/
 
-# Dataset
+# Raw dataset
 data/datasets/raw/Meteors/
 data/datasets/raw/Meteors.zip
+
+# Annotated datasets
+
+## No meteor + annotated (yolo26+coco)
+data/datasets/annotated/Meteorix_Mendeley_dataset_no_meteor_annotated.yolo26/
+data/datasets/annotated/Meteorix_Mendeley_dataset_no_meteor_annotated.yolo26.zip
+
+data/datasets/annotated/Meteorix_Mendeley_dataset_no_meteor_annotated.coco/
+data/datasets/annotated/Meteorix_Mendeley_dataset_no_meteor_annotated.coco.zip
+
+## No meteor + annotated + formatted (yolo26+coco)
+data/datasets/annotated/Meteorix_Mendeley_dataset_no_meteor_annotated_formatted.yolo26/
+data/datasets/annotated/Meteorix_Mendeley_dataset_no_meteor_annotated_formatted.yolo26.zip
+
+data/datasets/annotated/Meteorix_Mendeley_dataset_no_meteor_annotated_formatted.coco/
+data/datasets/annotated/Meteorix_Mendeley_dataset_no_meteor_annotated_formatted.coco.zip
+
+## With meteor + annotated (yolo26+coco)
+data/datasets/annotated/Meteorix_Mendeley_dataset_with_meteor_annotated.yolo26/
+data/datasets/annotated/Meteorix_Mendeley_dataset_with_meteor_annotated.yolo26.zip
+
+data/datasets/annotated/Meteorix_Mendeley_dataset_with_meteor_annotated.coco/
+data/datasets/annotated/Meteorix_Mendeley_dataset_with_meteor_annotated.coco.zip
+
+## With meteor + annotated + formatted (yolo26+coco)
+data/datasets/annotated/Meteorix_Mendeley_dataset_with_meteor_annotated_formatted.yolo26/
+data/datasets/annotated/Meteorix_Mendeley_dataset_with_meteor_annotated_formatted.yolo26.zip
+
+data/datasets/annotated/Meteorix_Mendeley_dataset_with_meteor_annotated_formatted.coco/
+data/datasets/annotated/Meteorix_Mendeley_dataset_with_meteor_annotated_formatted.coco.zip
+
+## Mixed + annotated (yolo26+coco)
+data/datasets/annotated/Meteorix_Mendeley_dataset_mixed_annotated_split.yolo26/
+data/datasets/annotated/Meteorix_Mendeley_dataset_mixed_annotated_split.yolo26.zip
+
+## Mixed + annotated + formatted + split (yolo26+coco)
+data/datasets/annotated/Meteorix_Mendeley_dataset_mixed_annotated_formatted_split_1.yolo26/
+data/datasets/annotated/Meteorix_Mendeley_dataset_mixed_annotated_formatted_split_1.yolo26.zip
+data/datasets/annotated/Meteorix_Mendeley_dataset_mixed_annotated_formatted_split_2.yolo26/
+data/datasets/annotated/Meteorix_Mendeley_dataset_mixed_annotated_formatted_split_2.yolo26.zip
+
+data/datasets/annotated/Meteorix_Mendeley_dataset_mixed_annotated_formatted_split_1.coco/
+data/datasets/annotated/Meteorix_Mendeley_dataset_mixed_annotated_formatted_split_1.coco.zip
+data/datasets/annotated/Meteorix_Mendeley_dataset_mixed_annotated_formatted_split_2.coco/
+data/datasets/annotated/Meteorix_Mendeley_dataset_mixed_annotated_formatted_split_2.coco.zip
+
