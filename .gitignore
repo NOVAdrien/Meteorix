@@ -1,8 +1,11 @@
 # No new folder
-/*
+# /*
 
 # New subfiles allowed
-!*/
+# !*/
+
+# No .docs fils in meetings CR
+docs/**/*.docx
 
 # Raw dataset
 data/datasets/raw/Meteors/
