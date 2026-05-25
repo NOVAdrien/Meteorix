@@ -4,8 +4,11 @@
 # New subfiles allowed
 # !*/
 
-# No .docs fils in meetings CR
+# No .docs files in meetings CR
 docs/**/*.docx
+
+# No private videos in dataset
+data/datasets/videos/*.MP4
 
 # Raw dataset
 data/datasets/raw/Meteors/
